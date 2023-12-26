@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07032AEB2B24792200CEDEA5 /* GetLocationCoordenates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07032AEA2B24792200CEDEA5 /* GetLocationCoordenates.swift */; };
+		0730262B2B1F921400B7AE83 /* DateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730262A2B1F921400B7AE83 /* DateString.swift */; };
+		0730912A2B3044840010354C /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073091292B3044830010354C /* Music.mp3 */; };
+		0730912C2B30454E0010354C /* Rest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0730912B2B30454E0010354C /* Rest.mp3 */; };
+		0730912F2B3048140010354C /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 0730912E2B3048140010354C /* NVActivityIndicatorView */; };
+		073091312B3048140010354C /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 073091302B3048140010354C /* NVActivityIndicatorViewExtended */; };
+		0733255A2B2B2236000DC2AB /* AsmaElhosna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073325592B2B2235000DC2AB /* AsmaElhosna.swift */; };
+		0733255C2B2B2371000DC2AB /* AsmaHosnaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0733255B2B2B2371000DC2AB /* AsmaHosnaVC.swift */; };
+		07332D962B2243B70062AB2C /* QiblaDirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07332D952B2243B70062AB2C /* QiblaDirectionVC.swift */; };
+		07332D982B2248AA0062AB2C /* QiblaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07332D972B2248A90062AB2C /* QiblaInfo.swift */; };
+		073631962B1B7186009A34C8 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073631952B1B7186009A34C8 /* NotificationVC.swift */; };
+		074EC2A22B1E187400C3AB6F /* a1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 074EC2A12B1E187400C3AB6F /* a1.wav */; };
+		074EC2A32B1E187400C3AB6F /* a1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 074EC2A12B1E187400C3AB6F /* a1.wav */; };
+		074EC2A42B1E187400C3AB6F /* a1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 074EC2A12B1E187400C3AB6F /* a1.wav */; };
+		078759EA2B2C8F72008C9FE8 /* AzkarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078759E92B2C8F71008C9FE8 /* AzkarVC.swift */; };
 		07A8B6FF2B13CCD400DE0548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B6FE2B13CCD400DE0548 /* AppDelegate.swift */; };
 		07A8B7012B13CCD400DE0548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B7002B13CCD400DE0548 /* SceneDelegate.swift */; };
 		07A8B7032B13CCD400DE0548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B7022B13CCD400DE0548 /* ViewController.swift */; };
@@ -16,6 +31,24 @@
 		07A8B7162B13CCD800DE0548 /* pray_timesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B7152B13CCD800DE0548 /* pray_timesTests.swift */; };
 		07A8B7202B13CCD800DE0548 /* pray_timesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B71F2B13CCD800DE0548 /* pray_timesUITests.swift */; };
 		07A8B7222B13CCD800DE0548 /* pray_timesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B7212B13CCD800DE0548 /* pray_timesUITestsLaunchTests.swift */; };
+		07A8B7332B13D40D00DE0548 /* RequestAPI"s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B7322B13D40D00DE0548 /* RequestAPI"s.swift */; };
+		07A8B7362B13D5CD00DE0548 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8B7352B13D5CD00DE0548 /* Alamofire */; };
+		07A8B7392B13D65600DE0548 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8B7382B13D65600DE0548 /* SwiftyJSON */; };
+		07CAED002B2B930F0053FBB6 /* TasabehCounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CAECFF2B2B930F0053FBB6 /* TasabehCounterVC.swift */; };
+		07D47F822B31DD9C00A9834D /* AzkarElSabahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F812B31DD9B00A9834D /* AzkarElSabahVC.swift */; };
+		07D47F842B31DE6700A9834D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F832B31DE6600A9834D /* File.swift */; };
+		07D47F862B32051E00A9834D /* AzkarElSabahCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F852B32051E00A9834D /* AzkarElSabahCell.swift */; };
+		07D47F882B320C4500A9834D /* AzkarElSabahMasaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F872B320C4500A9834D /* AzkarElSabahMasaa.swift */; };
+		07D47F8A2B32117800A9834D /* AzkarMasaaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F892B32117800A9834D /* AzkarMasaaVC.swift */; };
+		07D47F8C2B32119C00A9834D /* AzkarMesaaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D47F8B2B32119C00A9834D /* AzkarMesaaCell.swift */; };
+		07E514E72B2870AF00D7522F /* AllSurahsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E514E62B2870AF00D7522F /* AllSurahsVC.swift */; };
+		07E514E92B2870F300D7522F /* SurahsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E514E82B2870F300D7522F /* SurahsCell.swift */; };
+		07F786072B25A8B600EF74D8 /* QuranBySurahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F786062B25A8B600EF74D8 /* QuranBySurahVC.swift */; };
+		07F786092B26040700EF74D8 /* Quraan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F786082B26040700EF74D8 /* Quraan.swift */; };
+		07F7860B2B2633C500EF74D8 /* SHadowFiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7860A2B2633C400EF74D8 /* SHadowFiew.swift */; };
+		07F7860D2B2634E300EF74D8 /* QuraanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7860C2B2634E200EF74D8 /* QuraanCell.swift */; };
+		07FCBFE82B163D7200A8EE7F /* TimesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FCBFE72B163D7200A8EE7F /* TimesInfo.swift */; };
+		07FD0DD52B35DBC600A2BF6D /* HomeAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD0DD42B35DBC600A2BF6D /* HomeAppVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +69,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07032AEA2B24792200CEDEA5 /* GetLocationCoordenates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationCoordenates.swift; sourceTree = "<group>"; };
+		0730262A2B1F921400B7AE83 /* DateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateString.swift; sourceTree = "<group>"; };
+		073091292B3044830010354C /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		0730912B2B30454E0010354C /* Rest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rest.mp3; sourceTree = "<group>"; };
+		073325592B2B2235000DC2AB /* AsmaElhosna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsmaElhosna.swift; sourceTree = "<group>"; };
+		0733255B2B2B2371000DC2AB /* AsmaHosnaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsmaHosnaVC.swift; sourceTree = "<group>"; };
+		07332D952B2243B70062AB2C /* QiblaDirectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaDirectionVC.swift; sourceTree = "<group>"; };
+		07332D972B2248A90062AB2C /* QiblaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaInfo.swift; sourceTree = "<group>"; };
+		073631952B1B7186009A34C8 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		074EC2A12B1E187400C3AB6F /* a1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = a1.wav; path = ../../../../a1.wav; sourceTree = "<group>"; };
+		078759E92B2C8F71008C9FE8 /* AzkarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarVC.swift; sourceTree = "<group>"; };
 		07A8B6FB2B13CCD400DE0548 /* pray times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pray times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A8B6FE2B13CCD400DE0548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07A8B7002B13CCD400DE0548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +93,22 @@
 		07A8B71B2B13CCD800DE0548 /* pray timesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pray timesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A8B71F2B13CCD800DE0548 /* pray_timesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pray_timesUITests.swift; sourceTree = "<group>"; };
 		07A8B7212B13CCD800DE0548 /* pray_timesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pray_timesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07A8B7322B13D40D00DE0548 /* RequestAPI"s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RequestAPI\"s.swift"; sourceTree = "<group>"; };
+		07CAECFF2B2B930F0053FBB6 /* TasabehCounterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasabehCounterVC.swift; sourceTree = "<group>"; };
+		07D47F812B31DD9B00A9834D /* AzkarElSabahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarElSabahVC.swift; sourceTree = "<group>"; };
+		07D47F832B31DE6600A9834D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		07D47F852B32051E00A9834D /* AzkarElSabahCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarElSabahCell.swift; sourceTree = "<group>"; };
+		07D47F872B320C4500A9834D /* AzkarElSabahMasaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarElSabahMasaa.swift; sourceTree = "<group>"; };
+		07D47F892B32117800A9834D /* AzkarMasaaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarMasaaVC.swift; sourceTree = "<group>"; };
+		07D47F8B2B32119C00A9834D /* AzkarMesaaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarMesaaCell.swift; sourceTree = "<group>"; };
+		07E514E62B2870AF00D7522F /* AllSurahsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSurahsVC.swift; sourceTree = "<group>"; };
+		07E514E82B2870F300D7522F /* SurahsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahsCell.swift; sourceTree = "<group>"; };
+		07F786062B25A8B600EF74D8 /* QuranBySurahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBySurahVC.swift; sourceTree = "<group>"; };
+		07F786082B26040700EF74D8 /* Quraan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quraan.swift; sourceTree = "<group>"; };
+		07F7860A2B2633C400EF74D8 /* SHadowFiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHadowFiew.swift; sourceTree = "<group>"; };
+		07F7860C2B2634E200EF74D8 /* QuraanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuraanCell.swift; sourceTree = "<group>"; };
+		07FCBFE72B163D7200A8EE7F /* TimesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesInfo.swift; sourceTree = "<group>"; };
+		07FD0DD42B35DBC600A2BF6D /* HomeAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8B7392B13D65600DE0548 /* SwiftyJSON in Frameworks */,
+				073091312B3048140010354C /* NVActivityIndicatorViewExtended in Frameworks */,
+				07A8B7362B13D5CD00DE0548 /* Alamofire in Frameworks */,
+				0730912F2B3048140010354C /* NVActivityIndicatorView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +140,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071C92E82B1D049C0013D3C8 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				074EC2A12B1E187400C3AB6F /* a1.wav */,
+				073091292B3044830010354C /* Music.mp3 */,
+				0730912B2B30454E0010354C /* Rest.mp3 */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		073026292B1F91EE00B7AE83 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0730262A2B1F921400B7AE83 /* DateString.swift */,
+				07032AEA2B24792200CEDEA5 /* GetLocationCoordenates.swift */,
+				07D47F872B320C4500A9834D /* AzkarElSabahMasaa.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
 		07A8B6F22B13CCD400DE0548 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +183,14 @@
 		07A8B6FD2B13CCD400DE0548 /* pray times */ = {
 			isa = PBXGroup;
 			children = (
+				073026292B1F91EE00B7AE83 /* utilities */,
+				071C92E82B1D049C0013D3C8 /* AudioFiles */,
+				07A8B7312B13D38E00DE0548 /* Controllers  */,
+				07A8B7302B13D38500DE0548 /* views */,
+				07A8B72F2B13D37500DE0548 /* models */,
+				07A8B72E2B13D36600DE0548 /* Networking */,
 				07A8B6FE2B13CCD400DE0548 /* AppDelegate.swift */,
 				07A8B7002B13CCD400DE0548 /* SceneDelegate.swift */,
-				07A8B7022B13CCD400DE0548 /* ViewController.swift */,
-				07A8B7042B13CCD400DE0548 /* Main.storyboard */,
 				07A8B7072B13CCD700DE0548 /* Assets.xcassets */,
 				07A8B7092B13CCD700DE0548 /* LaunchScreen.storyboard */,
 				07A8B70C2B13CCD700DE0548 /* Info.plist */,
@@ -127,6 +215,57 @@
 			path = "pray timesUITests";
 			sourceTree = "<group>";
 		};
+		07A8B72E2B13D36600DE0548 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				07A8B7322B13D40D00DE0548 /* RequestAPI"s.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		07A8B72F2B13D37500DE0548 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				07FCBFE72B163D7200A8EE7F /* TimesInfo.swift */,
+				07332D972B2248A90062AB2C /* QiblaInfo.swift */,
+				07F786082B26040700EF74D8 /* Quraan.swift */,
+				073325592B2B2235000DC2AB /* AsmaElhosna.swift */,
+				07D47F832B31DE6600A9834D /* File.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		07A8B7302B13D38500DE0548 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				07A8B7042B13CCD400DE0548 /* Main.storyboard */,
+				07F7860A2B2633C400EF74D8 /* SHadowFiew.swift */,
+				07F7860C2B2634E200EF74D8 /* QuraanCell.swift */,
+				07E514E82B2870F300D7522F /* SurahsCell.swift */,
+				07D47F852B32051E00A9834D /* AzkarElSabahCell.swift */,
+				07D47F8B2B32119C00A9834D /* AzkarMesaaCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		07A8B7312B13D38E00DE0548 /* Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				07332D952B2243B70062AB2C /* QiblaDirectionVC.swift */,
+				07A8B7022B13CCD400DE0548 /* ViewController.swift */,
+				073631952B1B7186009A34C8 /* NotificationVC.swift */,
+				07F786062B25A8B600EF74D8 /* QuranBySurahVC.swift */,
+				07E514E62B2870AF00D7522F /* AllSurahsVC.swift */,
+				0733255B2B2B2371000DC2AB /* AsmaHosnaVC.swift */,
+				07CAECFF2B2B930F0053FBB6 /* TasabehCounterVC.swift */,
+				078759E92B2C8F71008C9FE8 /* AzkarVC.swift */,
+				07D47F812B31DD9B00A9834D /* AzkarElSabahVC.swift */,
+				07D47F892B32117800A9834D /* AzkarMasaaVC.swift */,
+				07FD0DD42B35DBC600A2BF6D /* HomeAppVC.swift */,
+			);
+			path = "Controllers ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +282,12 @@
 			dependencies = (
 			);
 			name = "pray times";
+			packageProductDependencies = (
+				07A8B7352B13D5CD00DE0548 /* Alamofire */,
+				07A8B7382B13D65600DE0548 /* SwiftyJSON */,
+				0730912E2B3048140010354C /* NVActivityIndicatorView */,
+				073091302B3048140010354C /* NVActivityIndicatorViewExtended */,
+			);
 			productName = "pray times";
 			productReference = 07A8B6FB2B13CCD400DE0548 /* pray times.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +360,11 @@
 				Base,
 			);
 			mainGroup = 07A8B6F22B13CCD400DE0548;
+			packageReferences = (
+				07A8B7342B13D5CD00DE0548 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				07A8B7372B13D65600DE0548 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				0730912D2B3048140010354C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 07A8B6FC2B13CCD400DE0548 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +381,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0730912C2B30454E0010354C /* Rest.mp3 in Resources */,
+				074EC2A22B1E187400C3AB6F /* a1.wav in Resources */,
 				07A8B70B2B13CCD700DE0548 /* LaunchScreen.storyboard in Resources */,
+				0730912A2B3044840010354C /* Music.mp3 in Resources */,
 				07A8B7082B13CCD700DE0548 /* Assets.xcassets in Resources */,
 				07A8B7062B13CCD400DE0548 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074EC2A32B1E187400C3AB6F /* a1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074EC2A42B1E187400C3AB6F /* a1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +414,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A8B7032B13CCD400DE0548 /* ViewController.swift in Sources */,
+				07E514E92B2870F300D7522F /* SurahsCell.swift in Sources */,
+				07032AEB2B24792200CEDEA5 /* GetLocationCoordenates.swift in Sources */,
+				07A8B7332B13D40D00DE0548 /* RequestAPI"s.swift in Sources */,
+				07D47F862B32051E00A9834D /* AzkarElSabahCell.swift in Sources */,
+				07FCBFE82B163D7200A8EE7F /* TimesInfo.swift in Sources */,
+				07D47F882B320C4500A9834D /* AzkarElSabahMasaa.swift in Sources */,
+				07FD0DD52B35DBC600A2BF6D /* HomeAppVC.swift in Sources */,
+				07E514E72B2870AF00D7522F /* AllSurahsVC.swift in Sources */,
 				07A8B6FF2B13CCD400DE0548 /* AppDelegate.swift in Sources */,
+				078759EA2B2C8F72008C9FE8 /* AzkarVC.swift in Sources */,
+				07F7860B2B2633C500EF74D8 /* SHadowFiew.swift in Sources */,
+				07D47F842B31DE6700A9834D /* File.swift in Sources */,
+				07332D982B2248AA0062AB2C /* QiblaInfo.swift in Sources */,
+				07F7860D2B2634E300EF74D8 /* QuraanCell.swift in Sources */,
+				07D47F822B31DD9C00A9834D /* AzkarElSabahVC.swift in Sources */,
+				07D47F8C2B32119C00A9834D /* AzkarMesaaCell.swift in Sources */,
+				0733255C2B2B2371000DC2AB /* AsmaHosnaVC.swift in Sources */,
+				07D47F8A2B32117800A9834D /* AzkarMasaaVC.swift in Sources */,
+				07F786072B25A8B600EF74D8 /* QuranBySurahVC.swift in Sources */,
+				07F786092B26040700EF74D8 /* Quraan.swift in Sources */,
+				07332D962B2243B70062AB2C /* QiblaDirectionVC.swift in Sources */,
+				0730262B2B1F921400B7AE83 /* DateString.swift in Sources */,
+				0733255A2B2B2236000DC2AB /* AsmaElhosna.swift in Sources */,
 				07A8B7012B13CCD400DE0548 /* SceneDelegate.swift in Sources */,
+				073631962B1B7186009A34C8 /* NotificationVC.swift in Sources */,
+				07CAED002B2B930F0053FBB6 /* TasabehCounterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +621,7 @@
 				DEVELOPMENT_TEAM = CZAAVN9JAQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "pray times/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +650,7 @@
 				DEVELOPMENT_TEAM = CZAAVN9JAQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "pray times/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -604,6 +785,57 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0730912D2B3048140010354C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07A8B7342B13D5CD00DE0548 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 5.8.1;
+				minimumVersion = 5.0.0;
+			};
+		};
+		07A8B7372B13D65600DE0548 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0730912E2B3048140010354C /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0730912D2B3048140010354C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		073091302B3048140010354C /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0730912D2B3048140010354C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+		07A8B7352B13D5CD00DE0548 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A8B7342B13D5CD00DE0548 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		07A8B7382B13D65600DE0548 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A8B7372B13D65600DE0548 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07A8B6F32B13CCD400DE0548 /* Project object */;
 }
