@@ -13,32 +13,27 @@ class HomeAppVC: UIViewController {
     var number : Int = 1
     var tasabeehConter : Int = 0
     //MARK: OUTLETS
-    
-    
-    
-    
-    
-    
-    @IBOutlet weak var btnPrayerTimes: UIButton! {
+    @IBOutlet weak var prayerTimesView: UIView! {
         didSet {
-            btnPrayerTimes.layer.cornerRadius = 15
+            prayerTimesView.layer.cornerRadius = 15
         }
     }
-    @IBOutlet weak var btnQibla: UIButton! {
+    @IBOutlet weak var QiblaView: UIView!{
         didSet {
-            btnQibla.layer.cornerRadius = 15
+            QiblaView.layer.cornerRadius = 15
         }
     }
-    @IBOutlet weak var btnAzkarSabah: UIButton! {
+    @IBOutlet weak var AzkarSabahView: UIView!{
         didSet {
-            btnAzkarSabah.layer.cornerRadius = 15
+            AzkarSabahView.layer.cornerRadius = 15
         }
     }
-    @IBOutlet weak var btnAzkarMasaa: UIButton! {
+    @IBOutlet weak var azkarMasaaView: UIView!{
         didSet {
-            btnAzkarMasaa.layer.cornerRadius = 15
+            azkarMasaaView.layer.cornerRadius = 15
         }
     }
+    
     @IBOutlet weak var tasabeihView: UIView! {
         didSet {
             tasabeihView.layer.cornerRadius = 15
