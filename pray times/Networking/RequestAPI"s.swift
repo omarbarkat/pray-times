@@ -85,15 +85,11 @@ class timesAPI {
             print(jsonData)
             let data = jsonData["data"]
             let ayahss = data["ayahs"]
-            
-//            let dataa = JSON(data)
             print(data)
-          
             do {
                 let decodable = JSONDecoder()
                 decodable.keyDecodingStrategy = .convertFromSnakeCase
                 let asmaa = try decodable.decode([AsmaaHosnaData].self, from: data.rawData())
-//
                 print(asmaa)
                 completionHandler(asmaa)
             } catch let error {
@@ -110,10 +106,7 @@ class timesAPI {
             print(jsonData)
             let data = jsonData["data"]
             let ayahss = data["ayahs"]
-            
-//            let dataa = JSON(data)
             print(data)
-          
             do {
                 let decodable = JSONDecoder()
                 decodable.keyDecodingStrategy = .convertFromSnakeCase
@@ -127,8 +120,6 @@ class timesAPI {
             }
         }
     }
-    
-    
     
     static func getQuraanBySurah(number : Int ,  offset:Int ,limit:Int , completionHandler : @escaping ([ayahs],quraan) -> () ) {
         let url = "http://api.alquran.cloud/v1/surah/\(number)"
@@ -147,7 +138,6 @@ class timesAPI {
                 decodable.keyDecodingStrategy = .convertFromSnakeCase
                 let quran = try decodable.decode(quraan.self, from: jsonData.rawData())
                 let ayah = try decodable.decode([ayahs].self, from: ayahss.rawData())
-//                print(ayah)
                 completionHandler(ayah,quran)
             } catch let error {
                 print(error)

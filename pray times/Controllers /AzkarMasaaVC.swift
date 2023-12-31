@@ -20,7 +20,8 @@ class AzkarMasaaVC: UIViewController {
 
         tableView.delegate = self
         tableView.dataSource = self
-        
+        tableView.separatorStyle = .singleLineEtched
+        tableView.separatorColor = .white
         loaderIndecatorView.startAnimating()
         timesAPI.getAzkarElMasaa { response in
             self.lblAzkarName.text = response.title
@@ -44,9 +45,21 @@ extension AzkarMasaaVC : UITableViewDelegate , UITableViewDataSource {
         cell.lblAzkarContent.text = azkar.zekr
         cell.lblAzkarDescription.text = azkar.bless
         cell.btnCount.setTitle("(\(azkar.repeat)) التكرار", for: .normal)
+        let borderWidth : CGFloat = 1.0
+        let borderColer = UIColor.white.cgColor
+        cell.layer.borderWidth = borderWidth
+        cell.layer.borderColor = borderColer
+        cell.layer.cornerRadius = 15
+        
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 520
+        return 450
+    }
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 25
+    }
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return UIView()
     }
 }
